@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Testing Ecommerce applications" parallel="tests">
+   <!-- <test name="Postive">
+         <classes>
+             <class name="com.mindtree.CucumberFramework.stepDefinations.Runner"/>
+             </classes>
+     </test> -->
+      <test name="Negative">
+         <classes>
+               <class name="com.mindtree.CucumberFramework.stepDefinations.Runner2"/>
+               
+             </classes>
+     </test> 
+</suite>
